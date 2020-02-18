@@ -3,7 +3,7 @@
 This repo consists of:
 
 <b> PART 1: <br> </b>
-A MATLAB application code which inputs a video and extracts eye-blinks of the user, using a statistical 'EAR (Eye Aspect Ratio)' custom metric based method.
+A MATLAB application code (Video to EAR.m) which inputs a video and extracts eye-blinks of the user, using a statistical 'EAR (Eye Aspect Ratio)' custom metric based method.
 It is an application extension of the works of [1] and [2].
 
 <i> References: <br> </i>
@@ -13,4 +13,4 @@ It is an application extension of the works of [1] and [2].
 
 <b> PART 2: <br> </b>
 A custom Convolutional Neural Network (VGG based) to train a drowsiness/fatigue detection model based upon input face images.
-(Python Script, using Keras with TensorFlow as backend).
+(Python Script: vgg_face_drowsiness.py, using Keras with TensorFlow as backend).
